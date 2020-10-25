@@ -1,0 +1,19 @@
+/* style={{ cursor: "pointer", float: "right", color: "red" }} */
+/* style={{ cursor: "pointer"} */
+
+#editcontact {
+  cursor: "pointer";
+  float: "right";
+  color: "black";
+  margin-right: "1rem";
+}
+
+#deletcontact {
+  cursor: "pointer";
+  float: "right";
+  color: "red";
+}
+
+#namedisplay {
+  cursor: pointer;
+}

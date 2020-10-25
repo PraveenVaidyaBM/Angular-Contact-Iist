@@ -1,0 +1,11 @@
+<div class="card card-body mb-3" *ngFor="let contact of userContacts">
+  <h4>{{contact.name}}
+    <i id="namedisplay" class="fas fa-sort-down"></i>
+    <i id="deletcontact" class="fas fa-times"></i>
+    <i id="editcontact" class="fas fa-pencil-alt" style="float: right"></i><a routerLink="/contact/edit:id"></a>
+  </h4>
+          <ul class="list-group">
+            <li class="list-group-item">Email:{{contact.email}}</li>
+            <li class="list-group-item">Phone:{{contact.phone}}</li>
+          </ul>
+</div>
